@@ -1,0 +1,16 @@
+﻿Notes
+<figure>
+	<img src="Images/heartborder.png" alt="here"/>
+   </figure>
+
+figure {
+	margin:20px auto 0px;
+	width: 90%;
+}
+
+figure img {
+	display: block,
+	width:40%;
+}
+
+
