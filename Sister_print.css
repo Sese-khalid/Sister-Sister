@@ -1,0 +1,48 @@
+@charset "utf-8";
+/*
+  
+   
+   Author: Suzannah Sese-khalid 
+          Date:   09/23/2017     
+   
+   Filename: Sister_print.css
+
+   
+
+*/
+
+
+
+
+
+/* Hidden Objects */
+
+ header, h1, h2, nav, th, h4  {
+	display: none;
+}
+infor a {
+	width: 15%;
+}
+article, aside, footer {
+	width: 60%;
+	margin: 0in auto 0in auto;
+
+}
+
+	img {
+	width: 5in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
