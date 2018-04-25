@@ -21,24 +21,71 @@ https://www.youtube.com/watch?v=d34GsFz-HkY
 
 Html, body { 
 	height: 100%;
+	
 }
  
 /* set the class for all div sections that will float within the body  */
 
-.sect {
-	
+.sects {
 	height: 100%;
 	background-size: cover;
+	background-attachment: fixed;
+}
+
+.sectFour {
+	background-image: url("Images/Balloons.jpeg ");
+}
+
+.sect {
+	
+	height: 55%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .subSection {
-	height: 50%;
+	height: 40%;
 	background-color:  #00CCFF;
+}
+
+.subSection > h1 > a:link, .subSection > h1 > a:visited {
+	color: white;
+	font-family: "Palatino Linotype", Georgia, cursive;
+	font-size: 60px;
+	text-decoration: none;
+	float: right;
+	margin-right: 20px;
+}
+
+.subSection > h1 > a:hover {
+	color: black;
+	font-family: "Palatino Linotype", Georgia, cursive;
+	font-size: 80px;
+	text-decoration: none;
+	float: right;
+	margin-right: 20px;
+}
+
+.subSection > h2 > a:link, .subSection > h1 > a:visited {
+	color: white;
+	font-family: "Palatino Linotype", Georgia, cursive;
+	Font-size:80px;
+	text-decoration: none;
+	float: left;
+}
+
+.subSection > h2 > a:hover {
+	color: Green;
+	font-family: "Palatino Linotype", Georgia, cursive;
+	Font-size:80px;
+	text-decoration: none;
+	float: left;
 }
 
  
 .sectOne {
-	background-image: url("Images/Sister Sister Slideshow rose.jpg ");
+	background-image: url("Images/Slideshow.gif ");
 }
 
 .sectTwo {
@@ -46,6 +93,17 @@ Html, body {
 }
 
 
+ .icon {
+	position:absolute;
+	width:80%;
+	top: 50px;
+	left:400px;
+}
+
+.sectTwo > #para { 
+	float: right;
+	margin-right: 400px;
+}
 
 
 /* Heading Styles */
@@ -56,7 +114,9 @@ Html, body {
 
 /* Navigation Styles */	
 
-
+nav {
+	font-family: 'Playfair Display', serif;	
+}
 
 
 
@@ -69,9 +129,23 @@ Html, body {
 /* Footer Styles */
  
 
+ hr {
+	border-width: 50%;
+	display: block;
+Â Â Â  	margin-top: 0.5em;
+Â  Â  	margin-bottom: 0.5em;
+Â Â Â  	margin-left: auto;
+Â  Â  	margin-right: auto;
+Â Â Â  	border-style: inset;
+Â  Â  	border-width: 1px;
 
+}
 
-
+footer {
+	height:200px;
+	padding-top: 10px;
+	font-family: 'Playfair Display', serif;	
+}
 
 
 
@@ -89,14 +163,14 @@ SIL Open Font License v1.10
 This license can also be found at this permalink: http://www.fontsquirrel.com/license/quicksand
 
 Copyright (c) 2011, Andrew Paglinawan (http://www.andrewpaglinawan.com andrew.paglinawan@gmail.com), 
-with Reserved Font Name “Quicksand”.
+with Reserved Font Name â€œQuicksandâ€.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
-—————————————————————————————-
+â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”-
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
-—————————————————————————————-
+â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”-
 
 PREAMBLE
 The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative 
@@ -112,19 +186,19 @@ any other type of license. The requirement for fonts to remain under this licens
 to any document created using the fonts or their derivatives.
 
 DEFINITIONS
-“Font Software” refers to the set of files released by the Copyright Holder(s) under this 
+â€œFont Softwareâ€ refers to the set of files released by the Copyright Holder(s) under this 
 license and clearly marked as such. This may include source files, build scripts and documentation.
 
-“Reserved Font Name” refers to any names specified as such after the copyright statement(s).
+â€œReserved Font Nameâ€ refers to any names specified as such after the copyright statement(s).
 
-“Original Version” refers to the collection of Font Software components as distributed by 
+â€œOriginal Versionâ€ refers to the collection of Font Software components as distributed by 
 the Copyright Holder(s).
 
-“Modified Version” refers to any derivative made by adding to, deleting, or substituting—in 
-part or in whole—any of the components of the Original Version, by changing formats or by 
+â€œModified Versionâ€ refers to any derivative made by adding to, deleting, or substitutingâ€”in 
+part or in wholeâ€”any of the components of the Original Version, by changing formats or by 
 porting the Font Software to a new environment.
 
-“Author” refers to any designer, engineer, programmer, technical writer or other person 
+â€œAuthorâ€ refers to any designer, engineer, programmer, technical writer or other person 
 who contributed to the Font Software.
 
 PERMISSION & CONDITIONS
@@ -157,7 +231,7 @@ TERMINATION
 This license becomes null and void if any of the above conditions are not met.
 
 DISCLAIMER
-THE FONT SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+THE FONT SOFTWARE IS PROVIDED â€œAS ISâ€, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
 INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE 
 AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT 
 HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, 
