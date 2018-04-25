@@ -11,27 +11,84 @@
 
 /* HTML and Body Styles */
 
-Html {	background-image: url("Images/colorbackground.gif"); 
-	background-position: 30% 25%;
-	background-size: 1000px 800px;
-	background-color: #00CC66;
-	background-repeat: no-repeat;
-
+#Happening {	
+	margin-top: 70px;
+	margin-left: 300px;
+	width: 700px;
+	
 }
 
 body {
+	background-image: url("Images/colorbackground.gif"); 
+	background-position: 35% 7%;
+	background-size: 500px 300px;
+	background-color: #00CC66;
+	background-repeat: no-repeat;
+}
+
+#articles1 {
+	width: 600px;
+	height: 600px;
+}
+
+#articles {
+	margin-left: 350px;
+	width: 600px;
+	height: 600px;
+	padding-bottom: 40px;
+
+}
+
+#articleinfo {
+	margin-left: 40px;
+}
+
+#cardpic {
+	width: 500px;
+	height: 350px;
+}
+
+#frame, #frame3, #frame2, #frame4 {
+	margin-top: 200px;
+	width: 500px;
+}
+
+#frame2, #frame4 {
+	float: right;
+	padding-bottom: 20px;
+	margin-right: 40px;
 	
 }
+
+#frame, #frame3 {
+	float: left;
+	padding-bottom: 20px;
+	margin-left: 60px;
+}
+
+#frame3, #frame4 {
+	padding-top: 100px;
+}
+
+
+#frame, #frame2 {
+	padding-top: 100px;
+}
+
+#navigation {
+	width: 60px;
+}
+
 /* Heading Styles */
 
 
-body > header {
+body > header > h1 {
 	color: #33FF99;
 	text-align: center;
 	text-weight: bolder;
 	text-transform: uppercase;
 	font-family: 'Oleo Script', cursive;
-	font-size: 3em;
+	font-size: 150px;
 
 } 
 
@@ -40,9 +97,7 @@ body > article> h3 {
 }
 
 
-.slideshow {
-	margin-left: 10%;
-}
+
 /* Aside and Blockquote Styles */
 
 
@@ -52,7 +107,7 @@ body > article> h3 {
 
 body > nav > #Services { 
 	font-family: serif;
-	font-size: 7em;
+	font-size: 3em;
 	font-style: italic;
 	text-transform: capitalize;
 	margin-left: 75%;
@@ -65,7 +120,7 @@ body > nav > #Services {
 
 body > nav > #Backhomepage {
 	font-family: serif;
-	font-size: 10em;
+	font-size: 6em;
 	font-style: italic;
 	text-transform: capitalize;
 	margin-left: 85%;
@@ -134,11 +189,9 @@ body > nav > #Backhomepage {
 
 /* Footer Styles */
  
-body > footer > address {
-	border-top-style: dotted;
-	border-width: 50%
+footer {
+	margin-top: 2300px;
 }
-	
 
 
 
@@ -159,14 +212,14 @@ SIL Open Font License v1.10
 This license can also be found at this permalink: http://www.fontsquirrel.com/license/quicksand
 
 Copyright (c) 2011, Andrew Paglinawan (http://www.andrewpaglinawan.com andrew.paglinawan@gmail.com), 
-with Reserved Font Name “Quicksand”.
+with Reserved Font Name â€œQuicksandâ€.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
-—————————————————————————————-
+â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”-
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
-—————————————————————————————-
+â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”-
 
 PREAMBLE
 The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative 
@@ -182,19 +235,19 @@ any other type of license. The requirement for fonts to remain under this licens
 to any document created using the fonts or their derivatives.
 
 DEFINITIONS
-“Font Software” refers to the set of files released by the Copyright Holder(s) under this 
+â€œFont Softwareâ€ refers to the set of files released by the Copyright Holder(s) under this 
 license and clearly marked as such. This may include source files, build scripts and documentation.
 
-“Reserved Font Name” refers to any names specified as such after the copyright statement(s).
+â€œReserved Font Nameâ€ refers to any names specified as such after the copyright statement(s).
 
-“Original Version” refers to the collection of Font Software components as distributed by 
+â€œOriginal Versionâ€ refers to the collection of Font Software components as distributed by 
 the Copyright Holder(s).
 
-“Modified Version” refers to any derivative made by adding to, deleting, or substituting—in 
-part or in whole—any of the components of the Original Version, by changing formats or by 
+â€œModified Versionâ€ refers to any derivative made by adding to, deleting, or substitutingâ€”in 
+part or in wholeâ€”any of the components of the Original Version, by changing formats or by 
 porting the Font Software to a new environment.
 
-“Author” refers to any designer, engineer, programmer, technical writer or other person 
+â€œAuthorâ€ refers to any designer, engineer, programmer, technical writer or other person 
 who contributed to the Font Software.
 
 PERMISSION & CONDITIONS
@@ -227,7 +280,7 @@ TERMINATION
 This license becomes null and void if any of the above conditions are not met.
 
 DISCLAIMER
-THE FONT SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+THE FONT SOFTWARE IS PROVIDED â€œAS ISâ€, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
 INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE 
 AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT 
 HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, 
