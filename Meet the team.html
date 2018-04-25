@@ -58,61 +58,47 @@
 
       <h3>Consultations</h3>
 
-  <form id="howtoconnect" action="" method="post">
+
+<table style="width:50%">
+<tr>
+	<th align="center"> Let's Celebrate a </th>
+	<td align="center" id="season"></td>
+	<th align="center"> Event </th>
+</tr>
+
+
+</table>
+<div id="weather" style="width: 210px;"><iframe style="display: block;" 
+src="https://cdnres.willyweather.com/widget/loadView.html?id=86854" width="300" height="600" frameborder="0" scrolling="no"></iframe>
+<a style="text-indent: -9999em;display: block;position: relative;margin: -20px 0 0 0;z-index: 1;height: 20px" 
+href="https://www.willyweather.com/va/city-of-virginia-beach/virginia-beach.html" rel="nofollow">virginia beach VA weather forecast</a></div>
+
+<form id="howtoconnect">
     <fieldset id="customerinfo">
 
 		<legend>To whom do we have the pleasure?</legend>
-    <div class="formRow">
+    <div class="form-group">
 	<label for="name"> Hello*</label>
 	<input name="custName" id="name" type="text" value="Grace Jones" required />
-    </div>
-    <div class="formRow">
 	<label for="email">Email*</label>
-	<input name="custEmail" id="email" type="email" value="miss@yahoo.com" required />
-    </div>
-    <div class="formRow">
-      <label id="contactpreference">Is this your personal email?</label>
-    <fieldset class="contactpre">
+	<input name="custEmail" id="email" type="email" value="miss@yahoo.com" required /><br>
+       <label id="contactpreference">Is email your prefered contact?</label>
 	<label for="fyes">Yes</label>
 	<input name="contactpreference" id="fYes" value "yes" type="radio" />
 	<label for="fno">No</label>
-	<input name="contactpreference" id="fNo" value "no" type="radio" />
-   </fieldset>
-    </div>
-    <div class="formRow">
-     <label id="contactpreference">Is this your prefered contact?</label>
-   <fieldset class="contactpre">
-	<label for="fyes">Yes</label>
-	<input name="contactpreference" id="fYes" value "yes" type="radio" />
-	<label for="fno">No</label>
-	<input name="contactpreference" id="fNo" value "no" type="radio" />
-    </div>
-    </fieldset>
-   <div class="formRow">
+	<input name="contactpreference" id="fNo" value "no" type="radio" /><br>
 	<label for="phone">Phone*</label>
 	<input name="custPhone" id="phone" type="tel" placeholder="7578886901" required />
-   </div>
-   <div class="formRow">
-      <label id="contactpreference">Is this your prefered contact</label>
-    <fieldset class="contactpre">
-	<label for="fyes">Yes</label>
-	<input name="contactpreference" id="fYes" value "yes" type="radio" />
-	<label for="fno">No</label>
-	<input name="contactpreference" id="fNo" value "no" type="radio" />
-    </div>
     </fieldset>
-
-        </fieldset>
-
  <form id="details" action="" method="post">
     <fieldset id="needs">	
 		<legend>Tell us about your family event!</legend>
-     <div class="formRow">
-   <p> Your event is special we would like to ensure we feel and see exactly what you plan experienceing on your day! If you plan like we do with social media please share so we can learn more about you.</p>
+   <p> Your event is special we would like to ensure we feel and see exactly what you plan <br> 
+	experiencing on your day! If you plan like we do with social media please share so we can<br> 
+	learn more about you.</p>
 	<input name="socialmedia" id="social" type="url" placeholder="https://www.pinterest.com/suzyqxo/okay-lets-goo/" />
         <input name="addtosocialmedia" id="addsm" value="yes" type="checkbox" />
 	<label for="addsm" class="loop" >Keep me in the loop by adding me to your social media (Pintrest) </label>
-     </div>
       	</fieldset>
 
         <fieldset id="needs">
@@ -132,20 +118,23 @@
      <div class="formRow">
 	<label for="purpose"> Type of Event*</label>
 	<select name="purpose" id="purpose" required>
-		<option value="reunion">Reunion</opyion>
-		<option value="Baby">Baby Shower</opyion>
-		<option value="Bridal">Bridal Shower</opyion>
-		<option value="Birthday">Birthday</opyion>
-		<option value="other" selected> Family event</opyion>
-     </div>
-     <div class="formRow">
+		<option value="reunion">Reunion</option>
+		<option value="BabyShower">Baby Shower</option>
+		<option value="BridalShower">Bridal Shower</option>
+		<option value="Birthday">Birthday</option>
+		<option value="Family" selected> Family</option>
+     </div> 
+<br>
+<br>
+<br>
+    
 	<textarea class="dateinfo">"This is the time to chat with us; let us know the the number of guests; desired budget and why are we getting the family together..."</textarea> 
-     </div>
+     
       	</fieldset>
-    <input type="submit" value="Submit" />
+    <button type="button" onclick="process()"> Submit </button>
     <input type="reset" value="Reset Consultation" />
   </fieldset>
-
+</form>
       <p>Email: <a href=mailto:sweetypie22193@yahoo.com? subject=test&body=Test % 20message> sweetypie22193@yahoo.com</a></p>
       
    
@@ -154,5 +143,16 @@
       King George, VA
       </address>
    </footer>
+
+<script>
+
+function process()
+{
+	var n=document.getElementById("purpose").value;
+	document.getElementById("season").innerHTML+=n+"<br>";
+	document.getElementById("purpose").value="";
+}	
+
+</script>
 </body>
 </html>
