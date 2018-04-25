@@ -1,4 +1,4 @@
-﻿/*
+/*
    Sister Sister events Style Sheet
    Author: Suzannah Sese-khalid
    Date:   09/23/2017
@@ -13,6 +13,17 @@
 
 Html {	background-color: #5ecca7;
 	background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+}
+
+#howtoconnect {
+	width: 50%;
+	margin-left:40px;
+}
+
+#weather {
+	float: right;
+	margin-right: 200px;
+	
 }
 
 td{
@@ -66,15 +77,6 @@ div.formRow {
 	margin: 7px 0px;
 }
 
-div.formRow > fieldset.contactpre {
-	background-color: yellow;
-	border-radius: 20px;
-	-webkit-flex: 1 1 300px;
-	flex: 1 1 300px;
-	font-size: 0.85em;
-	padding: 10px;
-	margin: 10px;
-}
 
 div.formRow > p {
 	font-size:20px;
@@ -150,21 +152,12 @@ input, select, textarea {
 
 textarea {
    height: 100px;
-   width: 60%;
+   width: 30%;
 }
 
 
 
-input[type='submit'] {
-   background-color: rgb(144, 170, 144);
-   color: rgb(245,245,165);
-   border-radius: 20px;
-   float: none;
-   display: inline;
-   font-size: 1.1em;
-   height: 30px;
-   width: 150px;
-}
+
 
 
 
