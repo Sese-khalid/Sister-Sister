@@ -17,7 +17,12 @@ https://www.youtube.com/watch?v=d34GsFz-HkY
 	margin: 0;
 }
  
-
+#quote {
+	float: right;
+	margin-right: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+}
 
 Html, body { 
 	height: 100%;
@@ -88,10 +93,10 @@ Html, body {
 	background-image: url("Images/Slideshow.gif ");
 }
 
-.sectTwo {
-	background-image: url("Images/Champagne 3.gif ");
+#champagne {
+	float: right;
+	margin-left: 100px;
 }
-
 
  .icon {
 	position:absolute;
