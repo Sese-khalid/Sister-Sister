@@ -44,20 +44,20 @@ Html, body {
 .sect {
 	
 	height: 55%;
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
 .subSection {
 	height: 40%;
-	background-color:  #00CCFF;
+	background-color:  #77d1cc;
 }
 
 .subSection > h1 > a:link, .subSection > h1 > a:visited {
 	color: white;
 	font-family: "Palatino Linotype", Georgia, cursive;
-	font-size: 60px;
+	font-size: 100px;
 	text-decoration: none;
 	float: right;
 	margin-right: 20px;
@@ -95,7 +95,9 @@ Html, body {
 
 #champagne {
 	float: right;
-	margin-left: 100px;
+	margin-right: 20px;
+	height: 351px;
+	
 }
 
  .icon {
@@ -137,12 +139,12 @@ nav {
  hr {
 	border-width: 50%;
 	display: block;
-    	margin-top: 0.5em;
-    	margin-bottom: 0.5em;
-    	margin-left: auto;
-    	margin-right: auto;
-    	border-style: inset;
-    	border-width: 1px;
+� 	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+ 	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+ 	border-width: 1px;
 
 }
 
