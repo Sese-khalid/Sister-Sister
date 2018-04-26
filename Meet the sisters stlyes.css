@@ -1,4 +1,4 @@
-/*
+﻿/*
    Sister Sister events Style Sheet
    Author: Suzannah Sese-khalid
    Date:   09/23/2017
@@ -24,6 +24,13 @@ Html {	background-color: #5ecca7;
 	float: right;
 	margin-right: 200px;
 	
+}
+
+#tables {
+	position: relative;
+	margin-bottom: 60px;
+	margin-left: 550px;
+	margin-top: 60px;
 }
 
 td{
@@ -167,6 +174,7 @@ textarea {
 body > footer > address {
 	border-top-style: dotted;
 	border-width: 50%
+	
 }
 	
 
