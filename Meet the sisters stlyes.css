@@ -11,8 +11,8 @@
 
 /* HTML and Body Styles */
 
-Html {	background-color: #5ecca7;
-	background-image: url("https://www.transparenttextures.com/patterns/brushed-alum-dark.png");
+Html {	background-color: #33FFD1;
+	background-image: url("");
 }
 
 #howtoconnect {
@@ -27,10 +27,12 @@ Html {	background-color: #5ecca7;
 }
 
 #tables {
-	position: relative;
-	margin-bottom: 60px;
-	margin-left: 550px;
-	margin-top: 60px;
+	float: right;
+	margin-top: 400px;
+	margin-right: 10px;
+	width: 10%;
+	font-family: 'Lobster', cursive;
+	font-size: 60px;
 }
 
 td{
@@ -55,7 +57,7 @@ td.girls {
 
 h4 {
 	position: absolute;
-	top:15%;
+	top:10%;
 	left:60%;
 	font-size: 300%;
 	color: yellow;
@@ -122,7 +124,7 @@ div.formRow > p {
 
 #bio {
 	position: absolute;
-	left: 900px;
+	left: 850px;
 	top: 200px;
 	width: 30%;
 	font-size: 20px;
