@@ -1,23 +1,30 @@
 ﻿<!DOCTYPE html>
 <html>
-<body>
-
-<p>JavaScript statements are separated by semicolons.</p>
-
-<p id="demo">
-<p id="demo1">
-<p id="demo2">
-
-<script>
-
-	var newElement = document.createElement("p");
-
-	newElement.textContent = " Whatever you call it, whoever you are, you need one. - Jane Howard";
+<head> 
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
   
-  	var scriptElement = document.querySelector("script");
-	document.body.insertBefore(newElement, scriptElement);
-
+ <script> 
+	$(document).ready(function() {
+		$("#btn").click(function() {
+			$("#test").load("Servicesajax.txt");
+			});
+		});
 </script>
+
+  </head>
+  <body>
+ <div id="test">
+
+      <h3> Event </h1>
+      
+	  
+
+</div>
+
+<button id="btn" type="button"> CLick to reveal options </button> 
 
 </body>
 </html>
