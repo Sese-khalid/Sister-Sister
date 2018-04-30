@@ -38,14 +38,14 @@ Html, body {
 .sect {
 	
 	height: 55%;
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
 .subSection {
 	height: 40%;
-	background-color:  #00CCFF;
+	background-color:  #77d1cc;
 }
 
 #Services {
@@ -56,6 +56,7 @@ Html, body {
 .subSection > h1 > a:visited {
 	color: white;
 	font-family: "Palatino Linotype", Georgia, cursive;
+<<<<<<< HEAD
 	Font-size:150px;
 	text-decoration: none;
 	float: right;
@@ -65,6 +66,9 @@ Html, body {
 	color: white;
 	font-family: "Palatino Linotype", Georgia, cursive;
 	Font-size:150px;
+=======
+	font-size: 100px;
+>>>>>>> d8e512459b4a0a35ef45305a322be6ea36e26c44
 	text-decoration: none;
 	float: right;
 }
@@ -108,9 +112,15 @@ Html, body {
 
 #champagne {
 	float: right;
+<<<<<<< HEAD
 	margin-left: 100px;
 	height: 400px;
 	margin-top: 10px;
+=======
+	margin-right: 20px;
+	height: 351px;
+	
+>>>>>>> d8e512459b4a0a35ef45305a322be6ea36e26c44
 }
 
  .icon {
@@ -170,12 +180,12 @@ nav {
  hr {
 	border-width: 50%;
 	display: block;
-    	margin-top: 0.5em;
-    	margin-bottom: 0.5em;
-    	margin-left: auto;
-    	margin-right: auto;
-    	border-style: inset;
-    	border-width: 1px;
+� 	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+ 	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+ 	border-width: 1px;
 
 }
 
