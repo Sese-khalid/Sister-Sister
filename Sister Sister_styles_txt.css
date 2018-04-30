@@ -17,12 +17,6 @@ https://www.youtube.com/watch?v=d34GsFz-HkY
 	margin: 0;
 }
  
-#quote {
-	float: right;
-	margin-right: 25px;
-	font-family: 'Raleway', sans-serif;
-	font-size: 35px;
-}
 
 Html, body { 
 	height: 100%;
@@ -54,25 +48,44 @@ Html, body {
 	background-color:  #00CCFF;
 }
 
-.subSection > h1 > a:link, .subSection > h1 > a:visited {
+#Services {
+		text-decoration: none;
+		color: white;
+}
+
+.subSection > h1 > a:visited {
 	color: white;
 	font-family: "Palatino Linotype", Georgia, cursive;
-	font-size: 60px;
+	Font-size:150px;
 	text-decoration: none;
 	float: right;
-	margin-right: 20px;
+}
+
+.subSection > h1 > a:link {
+	color: white;
+	font-family: "Palatino Linotype", Georgia, cursive;
+	Font-size:150px;
+	text-decoration: none;
+	float: right;
 }
 
 .subSection > h1 > a:hover {
 	color: black;
 	font-family: "Palatino Linotype", Georgia, cursive;
-	font-size: 80px;
+	Font-size:250px;
 	text-decoration: none;
 	float: right;
-	margin-right: 20px;
 }
 
-.subSection > h2 > a:link, .subSection > h1 > a:visited {
+.subSection > h2 > a:link {
+	color: white;
+	font-family: "Palatino Linotype", Georgia, cursive;
+	Font-size:80px;
+	text-decoration: none;
+	float: left;
+}
+
+.subSection > h2 > a:visited {
 	color: white;
 	font-family: "Palatino Linotype", Georgia, cursive;
 	Font-size:80px;
@@ -96,6 +109,8 @@ Html, body {
 #champagne {
 	float: right;
 	margin-left: 100px;
+	height: 400px;
+	margin-top: 10px;
 }
 
  .icon {
@@ -107,15 +122,33 @@ Html, body {
 
 .sectTwo > #para { 
 	float: right;
-	margin-right: 400px;
+	margin-right: 350px;
 }
 
-
+.sectTwo {
+	background: url(Images/pexels-photo-206358.jpeg),
+				url(Images/photographers.jpeg) top right;
+				background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 /* Heading Styles */
  
 /* Aside and Blockquote Styles */
 
+#quote {
+	float: right;
+	margin-right: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+}
 
+#Quotes {
+	margin-left: 500px;
+	font-family: 'Titan One', cursive;
+	font-size: 51px;
+	color: #990066;
+}
 
 /* Navigation Styles */	
 
