@@ -1,0 +1,108 @@
+﻿<div class="card w3-hover-shadow" id="article1">
+  <a href="http://blovelyevents.com/2015/06/09/lets-have-a-pineapple-party-decorations/"><img id="articles" class="card-img-top" src="Images/Link/We-Adore-These-Pineapple-Party-Decorations-B.-Lovely-Events.jpg" alt="Card image cap"></a>
+  <div class="card-body">
+    <p class="card-text blockquote text-center"  id="articleinfo">Pineapple week continues {which we are super excited about!} and today is all about seriously lovely pineapple party decorations.<br>
+	There is all sorts of pineapple party eye candy in this round up of decorations. Can you say pineapple pinata? We totally spotted a DIY one and are smitten for it! Pineapples can decorations <br>
+ 	 by themselves or even spray painted any color for a more modern feel..</p>
+  </div>
+</div>
+   
+<div class="card"  id="frame">
+  <img id="cardpic" class="card-img-top" src="Images/Link/12082569.jpg" alt="Card image cap">
+  <div class="card-img-overlay">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+<a href="https://holidappy.com/holidays/Valentines-Craft-Ideas" class="btn btn-primary">Down the rabbit hole</a>
+</div>
+	
+<div class="card" id="frame2">
+  <img id="cardpic" class="card-img-top" src="Images/Bollywood.jpeg" alt="Card image cap">
+  <div class="card-img-overlay">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+<a href="https://www.pinterest.com/suzyqxo/bollywood-baby-shower/" class="btn btn-primary">Down the rabbit hole</a>
+</div>
+
+<div class="card" id="frame3">
+  <img id="cardpic" class="card-img-top" src="Images/Link/conf-feet.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="http://asubtlerevelry.com/confetti-cannon-blasters/" class="btn btn-primary">Down the rabbit hole</a>
+  </div>
+</div>
+
+<div class="card" id="frame4">
+  <img id="cardpic" class="card-img-top" src="Images/Link/Girls-Ice-Cream-Party-Ideas.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://www.kristendukephotography.com/ice-cream-birthday-party-decorations/" class="btn btn-primary">Down the rabbit hole</a>
+  </div>
+</div>
+
+
+<div class="card" id="frame4">
+  <img id="cardpic" class="card-img-top" src="Images/Link/uniberry_5_1000x.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://bakerspartyshop.com/blogs/news/unicorn-chocolate-covered-strawberries" class="btn btn-primary">Down the rabbit hole</a>
+  </div>
+</div>
+
+<div class="card" id="frame4">
+  <img id="cardpic" class="card-img-top" src="Images/Link/10b13b3f5edeb544a300f94f4d741524.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://laurenconrad.com/blog/2015/06/lovely-libations-cotton-candy-champagne-cocktail/" class="btn btn-primary">Down the rabbit hole</a>
+  </div>
+</div>
+
+<div class="card" id="frame">
+  <img id="cardpic" class="card-img-top" src="Images/Link/Screen-Shot-2017-06-21-at-10.43.27-PM.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://blondebossbabe.com/blog/the-dreamiest-lace-teepee-diy-you-can-make-without-sewing-and-without-hardware/" class="btn btn-primary">Down the rabbit hole</a>
+  </div>
+</div>
+
+<div class="card" id="frame3">
+  <img id="cardpic" class="card-img-top" src="Images/Link/Rainbow-Cookie-Bars.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="http://kidsrecipebox.com/unicorn-rainbow-cookie-bars/" class="btn btn-primary">Down the rabbit hole</a>
+  </div>
+</div>
+
+<div class="card" id="frame">
+  <img id="cardpic" class="card-img-top" src="Images/Link/Trolls-Hair-Headbands-featured.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="http://colorthemoon.com/trolls-hair-headbands/" class="btn btn-primary">Down the rabbit hole</a>
+  </div>
+</div>
+
+<div class="card" id="frame">
+  <img id="cardpic" class="card-img-top" src="Images/Link/Unicorn-Ice-Cream-3.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="https://breadboozebacon.com/unicorn-ice-cream/" class="btn btn-primary">Down the rabbit hole</a>
+  </div>
+</div>
+
+<div class="card" id="frame">
+  <img id="cardpic" class="card-img-top" src="Images/Link/Lets-Flamingle-Flamingo-Birthday-Bash-via-Karas-Party-Ideas-KarasPartyIdeas.com10.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="http://karaspartyideas.com/2016/02/lets-flamingle-flamingo-birthday-bash.html" class="btn btn-primary">Down the rabbit hole</a>
+  </div>
+</div>

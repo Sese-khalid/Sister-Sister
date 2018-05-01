@@ -44,35 +44,15 @@ body {
 }
 
 #cardpic {
-	width: 300px;
-	height: 350px;
+	width: 200px;
+	height: 250px;
+	margin-left: 40px;
+	margin-top:15px;
 }
 
-#frame, #frame3, #frame2, #frame4 {
-	margin-top: 200px;
-	width: 300px;
-}
-
-#frame2, #frame4 {
-	float: right;
-	padding-bottom: 20px;
-	margin-right: 40px;
-	
-}
-
-#frame, #frame3 {
-	float: left;
-	padding-bottom: 20px;
-	margin-left: 60px;
-}
-
-#frame3, #frame4 {
-	padding-top: 100px;
-}
-
-
-#frame, #frame2 {
-	padding-top: 100px;
+#infortable {
+	width: 70%;
+	margin-left: 50px;
 }
 
 #navigation {

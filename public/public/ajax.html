@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Template</title>
+<style>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+</head>
+<body>
+
+<div id="demo">
+  <h2>Let AJAX change this text</h2>
+  <button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+<button type="button" id="restore" >Restore</button>
+
+<script>
+$("document").ready(function(){
+	$("#restore").hide();
+});
+
+$("#restore").click(function(){
+	// write code to restore div content and hide this button
+});
+
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+//	alert("readyState = "+this.readyState);
+//	alert("status = "+this.status);
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("demo").innerHTML = this.responseText;
+	$("#restore").show();
+    }
+  };
+  xhttp.open("POST", "ajax_info.txt", true);
+  xhttp.send();
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Invitation</title>
+<style>
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+</head>
+<body>
+
+<div id="demo">
+  <h2>Invitation</h2>
+  <button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+
+<script>
+
+function loadDoc() {
+$("#demo").load("ajax_info.txt");
+}
+
+</script>
+</body>
+</html>
