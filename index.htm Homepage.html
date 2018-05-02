@@ -75,6 +75,7 @@
        <h2 id="Glossary"><a href="Glossary.htm.html"> Sister Sister Experience </a></h2>
      </div>
  
+ 
 <hr> 
    <footer>
 <div class="container">
@@ -91,7 +92,35 @@
   </div>
 </div>
    </footer>
+<div id="demo">
+  <h2>Let's celebrate!</h2>
+  <button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+<button type="button" id="restore" >Invitation</button>
 
+<script>
+$("document").ready(function(){
+	$("#restore").hide();
+});
+
+$("#restore").click(function(){
+	// write code to restore div content and hide this button
+});
+
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+//	alert("readyState = "+this.readyState);
+//	alert("status = "+this.status);
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("demo").innerHTML = this.responseText;
+	$("#restore").show();
+    }
+  };
+  xhttp.open("POST", "ajax_info.txt", true);
+  xhttp.send();
+}
+</script>
  <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -106,9 +135,6 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
-<script>
-	document.getByID("para").innerHTML= "hhhhhhhhh fffffffff fffffffff";
-</script>
 
 </body>
 </html>

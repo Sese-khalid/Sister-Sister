@@ -1,0 +1,98 @@
+﻿<!doctype html>
+<html>
+<head>
+<!--
+    Sister Sister Events Home page
+   Author: Suzannah Sese-khalid
+   Date:   09/23/2017
+   
+    Filename: Sister Sister_ Sese-khalid.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="keywords" content="Events, Babyshower, Reunions, Coordinating" />
+   <link href="Meet the sisters stlyes.css" rel="stylesheet" />
+   <title>Sister Sister </title>
+</head>
+
+<body>
+   
+   <article id="Meet the team_ page"> <!-- each picture centered side by side -->
+      <img src="tss_photo1.png" alt="" />
+      <p> Meet Elisha Sese-khalid the coordinator looking to begin coordinating your next event.
+	As left brain, Elisha is the sister during the event ensuring the entertainment starts on time 
+	while that the guests enjoy!
+     <img src="tss_photo1.png" alt="" />
+      <p> Meet grace Jones the decorator who enjoys DIY projects and old movies. 
+	Decorating for your event is a pleasure! Check out the articles and our 
+	pintrest page for event ideas I would enjoy bringing to life for you.
+  
+      <h3>Sisters</h3> <!-- Why we coordinate section align left -->
+      <blockquote>
+	<p>As Sisters enjoy getting togethor making moments. Sister Sister Events is our gift of
+	joy and peace of mind. Starting with a friend's babyshower, Sister Sister started just to 
+	ensure our friend wouldn't pull out her hair. We were hooked and want to travel through Virginia making
+	opportunities for you to enjoy your moments; without the stress.</p>
+	<p>love, Sister Sister</p>
+	</blockquote>
+
+   <hr>
+
+      <img src="tss_photo1.png" alt="" />
+
+      <h3>Consultations</h3>
+      <p>Contact us to set up your cosultation</p>
+  <form id="howtoconnect" action="" method="post">
+    <fieldset id="customerinfo">
+
+		<legend>To whom do we have the pleasure?</legend>
+
+	<label for="name"> Hello*</label>
+	<input name="custName" id="name" type="text" value="Grace Jones" />
+	
+	<label for="email">Contact*</label>
+	<input name="custEmail" id="email" type="email" value="miss@yahoo.com" />
+      <label id="contactpreference">Is this your prefered contact?</label>
+    <fieldset class="contactpre">
+	<label for="fyes">Yes</label>
+	<input name="contactpreference" id="fYes" value "yes" type="radio" />
+	<label for="fno">No</label>
+	<input name="contactpreference" id="fNo" value "no" type="radio" />
+    </fieldset>
+
+	<label for="phone">Contact*</label>
+	<input name="custPhone" id="phone" type="tel" value="xxxxxxxxxx" />
+      <label id="contactpreference">Is this your prefered contact</label>
+    <fieldset class="contactpre">
+	<label for="fyes">Yes</label>
+	<input name="contactpreference" id="fYes" value "yes" type="radio" />
+	<label for="fno">No</label>
+	<input name="contactpreference" id="fNo" value "no" type="radio" />
+    </fieldset>
+
+        </fieldset>
+
+ <form id="details" action="" method="post">
+    <fieldset id="needs">	
+		<legend>Tell us about your family event!</legend>
+
+       <label for="social">Connect</label>
+   <p> Your event is special we would like to ensure we feel and see exactly what you plan experienceing on your day! If you plan like we do with social media please share so we can learn more about you.</p>
+	<input name="socialmedia" id="social" type="url" placeholder="https://www.pinterest.com/suzyqxo/okay-lets-goo/" />
+      	</fieldset>
+
+        <fieldset id="needs">
+		<legend>What can we celebrate with you?</legend>
+	<textarea></textarea>& placeholder
+      	</fieldset>
+  </fieldset>
+
+      <p>Email: <a href=mailto:sweetypie22193@yahoo.com? subject=test&body=Test % 20message> sweetypie22193@yahoo.com</a></p>
+      
+   
+   <footer>
+      <address>
+      King George, VA
+      </address>
+   </footer>
+</body>
+</html>
